@@ -76,6 +76,9 @@ public class MyFirstBot extends TelegramLongPollingBot {
                 case "/get 20$":
                     sendPhoto(chatId, "$20");
                     break;
+                case "/make me happy":
+                    sendPhoto(chatId, "1");
+                    break;
                 default:
                     sendMessage(chatId, "I don't understand");
                     break;
